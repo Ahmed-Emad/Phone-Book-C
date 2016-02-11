@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Project.xcodeproj">
+      location = "self:/Users/ahmadbarakat/Documents/GitHub/Phone Book/Phone Book.xcodeproj">
    </FileRef>
 </Workspace>

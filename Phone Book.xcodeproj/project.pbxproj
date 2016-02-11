@@ -25,7 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A224537F186BC0A10028F218 /* Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Project; sourceTree = BUILT_PRODUCTS_DIR; };
+		A224537F186BC0A10028F218 /* Phone Book */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Phone Book"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2245382186BC0A20028F218 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		A2245384186BC0A20028F218 /* Project.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Project.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 		A2245380186BC0A10028F218 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A224537F186BC0A10028F218 /* Project */,
+				A224537F186BC0A10028F218 /* Phone Book */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,15 +63,16 @@
 				A2245382186BC0A20028F218 /* main.c */,
 				A2245384186BC0A20028F218 /* Project.1 */,
 			);
-			path = Project;
+			name = Project;
+			path = "Phone Book";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A224537E186BC0A10028F218 /* Project */ = {
+		A224537E186BC0A10028F218 /* Phone Book */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2245388186BC0A20028F218 /* Build configuration list for PBXNativeTarget "Project" */;
+			buildConfigurationList = A2245388186BC0A20028F218 /* Build configuration list for PBXNativeTarget "Phone Book" */;
 			buildPhases = (
 				A224537B186BC0A10028F218 /* Sources */,
 				A224537C186BC0A10028F218 /* Frameworks */,
@@ -81,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = Project;
+			name = "Phone Book";
 			productName = Project;
-			productReference = A224537F186BC0A10028F218 /* Project */;
+			productReference = A224537F186BC0A10028F218 /* Phone Book */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -95,7 +96,7 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Ahmed Barakat";
 			};
-			buildConfigurationList = A224537A186BC0A10028F218 /* Build configuration list for PBXProject "Project" */;
+			buildConfigurationList = A224537A186BC0A10028F218 /* Build configuration list for PBXProject "Phone Book" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -107,7 +108,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A224537E186BC0A10028F218 /* Project */,
+				A224537E186BC0A10028F218 /* Phone Book */,
 			);
 		};
 /* End PBXProject section */
@@ -195,21 +196,21 @@
 		A2245389186BC0A20028F218 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Phone Book";
 			};
 			name = Debug;
 		};
 		A224538A186BC0A20028F218 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Phone Book";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A224537A186BC0A10028F218 /* Build configuration list for PBXProject "Project" */ = {
+		A224537A186BC0A10028F218 /* Build configuration list for PBXProject "Phone Book" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2245386186BC0A20028F218 /* Debug */,
@@ -218,13 +219,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A2245388186BC0A20028F218 /* Build configuration list for PBXNativeTarget "Project" */ = {
+		A2245388186BC0A20028F218 /* Build configuration list for PBXNativeTarget "Phone Book" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2245389186BC0A20028F218 /* Debug */,
 				A224538A186BC0A20028F218 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
